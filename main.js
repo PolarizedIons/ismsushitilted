@@ -1,6 +1,6 @@
 const tilted = document.getElementById("tilted");
 
-fetch('https://is-msushi-live.herokuapp.com/')
+fetch('https://is-msushi-live.polarizedions.workers.dev/')
     .then(res => {
         return res.json();      
     })
